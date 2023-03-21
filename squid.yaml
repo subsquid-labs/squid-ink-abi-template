@@ -2,7 +2,7 @@ manifestVersion: subsquid.io/v0.1
 name: ink-template
 version: 1
 description: |-
-  Ink! contract indexing squid  
+  Ink! contract indexing squid
 build:
 
 deploy:
