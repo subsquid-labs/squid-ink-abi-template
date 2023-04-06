@@ -1,3 +1,6 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/subsquid-labs/squid-ink-abi-template)
+
+
 # Ink! ABI squid template
 
 An experimental template is used to generate a squid that indexes Ink! events of choice from a contract address.
