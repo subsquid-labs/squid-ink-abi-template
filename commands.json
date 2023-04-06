@@ -9,6 +9,10 @@
       "description": "Generate a squid from an ABI file",
       "cmd": ["squid-gen-abi"]
     },
+    "generate:with-config": {
+      "description": "Generate a squid from an ABI file using a config file",
+      "cmd": ["squid-gen", "config"]
+    },
     "typegen": {
       "description": "Generate data access classes for an ABI file(s) in the ./abi folder",
       "cmd": ["squid-ink-typegen"]
