@@ -37,6 +37,8 @@ Options:
   -h, --help             display help for command
 ```
 
+Alternatively, use the config-based command `sqd generate:with-config`. A sample config file is provided by `example.config.yml`. For a full reference, see the [docs page](https://docs.subsquid.io/basics/squid-gen/#configuration).
+
 3. Build and run the squid
 
 ```bash
@@ -54,11 +56,12 @@ In a separate window, start the GraphQL API server at `localhost:4350/graphql`:
 sqd serve
 ```
 
-4. Inspect schema.graphql, src/processor.ts and start hacking!
+4. Inspect `schema.graphql`, `src/processor.ts` and start hacking!
 
 For more details on how to build and deploy a squid, see the docs.
 
 ## Example
+
 ### Generate
 ```bash
 npx squid-gen-abi \
