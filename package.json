@@ -5,7 +5,7 @@
     "build": "rm -rf lib && tsc"
   },
   "dependencies": {
-    "@subsquid/archive-registry": "2.1.14",
+    "@subsquid/archive-registry": "3.1.0",
     "@subsquid/graphql-server": "4.2.0",
     "@subsquid/ink-abi": "^1.1.0",
     "@subsquid/ss58": "^0.1.4",
