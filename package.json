@@ -6,12 +6,12 @@
   },
   "dependencies": {
     "@subsquid/archive-registry": "3.2.0",
-    "@subsquid/graphql-server": "4.2.1",
+    "@subsquid/graphql-server": "4.3.0",
     "@subsquid/ink-abi": "^1.1.0",
     "@subsquid/ss58": "^0.1.4",
     "@subsquid/substrate-processor": "2.4.1",
     "@subsquid/typeorm-migration": "1.2.1",
-    "@subsquid/typeorm-store": "1.2.1",
+    "@subsquid/typeorm-store": "1.2.2",
     "dotenv": "^16.0.3",
     "pg": "8.8.0",
     "typeorm": "^0.3.11"
