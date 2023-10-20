@@ -17,7 +17,7 @@
     "typeorm": "^0.3.11"
   },
   "devDependencies": {
-    "@subsquid/ink-typegen": "^0.2.1",
+    "@subsquid/ink-typegen": "^3.0.0",
     "@subsquid/squid-gen-ink": "^0.1.2",
     "@subsquid/substrate-metadata-explorer": "^1.1.2",
     "@subsquid/typeorm-codegen": "^1.0.0",
