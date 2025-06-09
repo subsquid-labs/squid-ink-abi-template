@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@subsquid/archive-registry": "3.3.2",
-    "@subsquid/graphql-server": "4.10.0",
+    "@subsquid/graphql-server": "4.11.0",
     "@subsquid/ink-abi": "^3.0.1",
     "@subsquid/ss58": "^2.0.1",
     "@subsquid/substrate-processor": "8.6.0",
