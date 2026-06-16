@@ -37,7 +37,7 @@ Options:
   -h, --help             display help for command
 ```
 
-Alternatively, use the config-based command `sqd generate:with-config`. A sample config file is provided by `example.config.yml`. For a full reference, see the [docs page](https://docs.subsquid.io/basics/squid-gen/#configuration).
+Alternatively, use the config-based command `sqd generate:with-config`. A sample config file is provided by `example.config.yml`. For a full reference, see the [docs page](https://docs.sqd.dev/en/sdk).
 
 3. Build and run the squid
 
