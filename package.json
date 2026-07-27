@@ -1,26 +1,26 @@
 {
-  "name": "squid-ink-template",
+  "name": "squid-ink-abi-template",
   "private": true,
   "scripts": {
     "build": "rm -rf lib && tsc"
   },
   "dependencies": {
-    "@subsquid/archive-registry": "3.3.2",
-    "@subsquid/graphql-server": "4.12.0",
-    "@subsquid/ink-abi": "^3.0.1",
-    "@subsquid/ss58": "^2.0.1",
-    "@subsquid/substrate-processor": "8.8.1",
-    "@subsquid/typeorm-migration": "1.3.1",
-    "@subsquid/typeorm-store": "1.9.1",
-    "dotenv": "^16.3.1",
-    "pg": "8.11.3",
-    "typeorm": "^0.3.17"
+    "@subsquid/archive-registry": "^3.3.2",
+    "@subsquid/graphql-server": "^4.12.1",
+    "@subsquid/ink-abi": "^3.1.2",
+    "@subsquid/ss58": "^2.0.2",
+    "@subsquid/substrate-processor": "^8.8.1",
+    "@subsquid/typeorm-migration": "^1.4.0",
+    "@subsquid/typeorm-store": "^1.9.1",
+    "dotenv": "^17.4.2",
+    "pg": "^8.22.0",
+    "typeorm": "^0.3.31"
   },
   "devDependencies": {
-    "@subsquid/ink-typegen": "^3.0.2",
-    "@subsquid/substrate-metadata-explorer": "^3.1.1",
-    "@subsquid/typeorm-codegen": "^2.0.0",
-    "@types/node": "^20.9.0",
-    "typescript": "~5.2.2"
+    "@subsquid/ink-typegen": "^3.1.0",
+    "@subsquid/substrate-metadata-explorer": "^3.2.0",
+    "@subsquid/typeorm-codegen": "^2.4.0",
+    "@types/node": "^24.13.3",
+    "typescript": "~5.9.3"
   }
 }

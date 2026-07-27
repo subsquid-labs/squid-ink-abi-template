@@ -5,6 +5,19 @@
 
 An experimental template is used to generate a squid that indexes Ink! events of choice from a contract address.
 
+## Accessing the SQD Network gateway
+
+The generated squid sources historical data from a SQD Network v2 gateway (the `archive:` entry in
+`example.config.yml`, e.g. `shibuya`). Since May 19, 2026, **self-hosted** squids need an API key to
+access these gateways (see [SQD API keys](https://docs.sqd.dev/en/data/api-keys)):
+
+1. Create a key at [portal.sqd.dev/app](https://portal.sqd.dev/app).
+2. Add it to `.env`: `SQD_API_KEY=your_api_key`.
+3. In the generated `src/processor.ts`, pass it to `.setGateway({url, apiKey: process.env.SQD_API_KEY})`.
+
+Squids deployed to [SQD Cloud](https://docs.sqd.dev/en/cloud/overview) don't need this — the platform
+provides gateway access.
+
 ## Quickstart
 
 0. Install @subsquid/cli a.k.a. the sqd command globally
